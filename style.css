@@ -27,11 +27,57 @@ a:hover {
   #demo .minibox {
     width: 400px;
     height: 100px;
-    border: 2px solid black;
+    border: 2px solid blue;
     border-radius: 10px;
-    backgraund-color: #fff;
   }
   #demo .minibox h1 {
     font-size: 30px;
   }
+}
+@media (min-width: 992px) {
+  #demo .minibox {
+    width: 600px;
+    height: 100px;
+    border: 3px solid red;
+    border-radius: 10px;
+  }
+  #demo .minibox h1 {
+    font-size: 40px;
+  }
+}
+
+#order {
+  padding: 50px 0;
+}
+#order .box .btn {
+  padding: 25px 75px;
+  border-radius: 20px;
+  background-color: #53e38d;
+  color: white;
+  font-size: 30px;
+}
+@media (max-width: 576px) {
+  #order .box .btn {
+    padding: 15px 45px;
+    border-radius: 5px;
+    background-color: #2e8852;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+#welcome {
+  padding: 50px 0;
+}
+#welcome .box {
+  position: relative;
+}
+#welcome .box .minibox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  transition: 2s;
+}
+#welcome .box .minibox:hover {
+  width: 300px;
 }/*# sourceMappingURL=style.css.map */
