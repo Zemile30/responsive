@@ -1,12 +1,20 @@
 #welcome
     padding: 50px 0
-    .box
-        position: relative
+    .minibox
+        width: 200px
+        height: 200px
+        border: 5px solid black
+        color:  #be9b32
+        transition: 2s
+        &:hover
+            border-radius: 100px
+            border: 5px solid  #dfa54e
+    @media (max-width: 400px)
         .minibox
-            width: 100px
-            height: 100px
-            border: 1px solid black
-            transition: 2s
-            &:hover
-                width: 300px
-                
+            width: 50px
+            height: 50px
+            background-color:  #eda735
+            color:  #ffff
+            border: 3px solid black
+
+            
